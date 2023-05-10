@@ -49,4 +49,4 @@ Se eligio el sistema de gestión de bases de datos **MySQL** porqué:
     
     3. Es compatible con una gran variedad de sistemas operativos y lenguajes de programación. Esto nos facilita el poder utilizarlo en una variedad de entornos y para diferentes aplicaciones.
     
-    4. Tiene una seguridad sólidas que permiten proteger los datos almacenados en las bases de datos. Esto incluye autenticación de usuarios, encriptación de datos y auditoría de seguridad.
+    4. Tiene una seguridad sólida que permiten proteger los datos almacenados en las bases de datos. Esto incluye autenticación de usuarios, encriptación de datos y auditoría de seguridad.
