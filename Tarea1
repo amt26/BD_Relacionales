@@ -30,5 +30,12 @@ Estados dos variables son de tipo character.
 
 El periodo de tiempo el cual se compone esta encuesta es de enero 2023 a marzo del 2023.
 
+# Sistema de gestión de bases de datos (SGBD)
+Se eligio el sistema de gestión de bases de datos **MySQL** porqué:
+    1. Tiene una gran comunidad de usuarios, lo que significa que podemos encontrar una gran cantidad de recursos y documentación disponibles en línea.
 
-
+    2. Es posible configurar y optimizar MySQL para manejar grandes cantidades de datos y usuarios concurrentes.
+    
+    3. Es compatible con una gran variedad de sistemas operativos y lenguajes de programación. Esto nos facilita el poder utilizarlo en una variedad de entornos y para diferentes aplicaciones.
+    
+    4. Tiene una seguridad sólidas que permiten proteger los datos almacenados en las bases de datos. Esto incluye autenticación de usuarios, encriptación de datos y auditoría de seguridad.
