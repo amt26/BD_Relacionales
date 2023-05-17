@@ -8,3 +8,4 @@ En este repositorio se encuentran las tareas asociadas a la materia **Base de Da
 
 Indice de tareas:
 * [Tarea 1](/Tarea1.md)
+* [Tarea 2](/Tarea2.md)
