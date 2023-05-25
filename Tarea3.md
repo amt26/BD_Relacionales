@@ -51,6 +51,18 @@ Ubicacion ||--o{ Encuestado: Pertenece
 ```
 
 **Operadores Algebra Lineal**
-1. Proyección: conocer la ocupación de los encuestados
+1. Proyección: conocer la ocupación de los encuestados:
 
     $\prod_{Encuestado}$(Ocupacion)
+
+2. Selección: extraer el id_encuestado para aquellos encuestados que tienen como sexo el valor de 1 (masculino):
+
+     $\prod_{Id_Encuestado}$ ($\sigma_{Sexo = "1"}$(Encuestado))
+
+3. Proyección: extraer el Id_encuesta de los encuestados cuya edad es menor a 27
+
+     $\prod_{Encuesta.Id_Encuesta}$ ($\sigma_{Edad < 27}$(Encuestado))
+
+4. Selección: extraer el resultado de la encuesta para un encuestado en especifico: 
+
+     $\prod_{Id_Resultado}$ ($\sigma_{Id_Encuestado = "100071.026"}$(Resultado))
