@@ -63,6 +63,6 @@ Ubicacion ||--o{ Encuestado: Pertenece
 
      $\prod_{Encuesta.Id_Encuesta}$ ($\sigma_{Edad < 27}$(Encuestado))
 
-4. Selección: conocer el resultado de la encuesta para un encuestado en especifico
+4. Selección: conocer el resultado de la encuesta para un encuestado en específico
 
      $\prod_{Id_Resultado}$ ($\sigma_{Id_Encuestado = "100071.026"}$(Resultado))
