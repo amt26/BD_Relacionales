@@ -49,3 +49,8 @@ Encuesta ||--o{ Resultado: Pertenece
 Encuestado ||--o{ Resultado: Pertenece
 Ubicacion ||--o{ Encuestado: Pertenece
 ```
+
+**Operadores Algebra Lineal**
+1. Proyección: conocer la ocupación de los encuestados
+
+    $\prod_{Encuestado}$(Ocupacion)
