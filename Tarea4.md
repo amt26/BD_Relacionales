@@ -1,4 +1,4 @@
-**Creación de la base de datos y tablas correspondientes**
+**Base de Batos y Tablas**
 
 ```sql
 /*Crear la base de datos ENSU*/
@@ -41,3 +41,5 @@ CREATE TABLE Resultado(
     Percepción_Incivilidades_Entorno INT(2) NOT NULL
 );
 ```
+
+**Insertando Datos**
