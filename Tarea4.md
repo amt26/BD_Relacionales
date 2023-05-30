@@ -1,4 +1,4 @@
-**Base de Batos y Tablas**
+**Base de Datos y Tablas**
 
 ```sql
 /*Crear la base de datos ENSU*/
