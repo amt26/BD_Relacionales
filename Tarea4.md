@@ -1,3 +1,5 @@
+**Creación de la base de datos y tablas correspondientes**
+
 ```sql
 /*Crear la base de datos ENSU*/
 CREATE DATABASE ENSU;
@@ -33,6 +35,9 @@ CREATE TABLE Ubicacion(
 /*Creando la tabla Resultado*/
 CREATE TABLE Resultado(
     Id_Resultado INT AUTO_INCREMENT PRIMARY KEY,
-    Percepción_Seguridad_Pública INT(2) NOT NULL,Confianza_Administración_Pública VARCHAR(2) NOT NULL,Percepción_Inseguridad_Pública INT(2) NOT NULL,Percepción_Incivilidades_Entorno INT(2) NOT NULL
+    Percepción_Seguridad_Pública INT(2) NOT NULL,
+    Confianza_Administración_Pública VARCHAR(2) NOT NULL,
+    Percepción_Inseguridad_Pública INT(2) NOT NULL,
+    Percepción_Incivilidades_Entorno INT(2) NOT NULL
 );
 ```
