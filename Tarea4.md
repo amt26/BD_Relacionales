@@ -36,11 +36,11 @@ CREATE TABLE Encuestado(
 
 /*Insertar datos: Encuestado*/
 INSERT INTO Encuestado (Id_Encuestado,Id_Ubicacion,Genero,Edad,Fecha_Nacimiento,Ocupacion,Grado_Estudio,Numero_Mudanza) VALUES
-(1,1,1,23,'1999-10-26',2,"08",1),
-(2,2,2,25,'1998-04-26',2,"08",1),
-(3,3,2,59,'1964-01-27',2,"02",3),
-(4,4,1,21,'2000-11-14',2,"08",1),
-(5,5,2,20,'2003-05-11',2,"08",1);
+(1,1,1,23,'1999-10-26',2,8,1),
+(2,2,2,25,'1998-04-26',2,8,1),
+(3,3,2,59,'1964-01-27',2,2,3),
+(4,4,1,21,'2000-11-14',2,8,1),
+(5,5,2,20,'2003-05-11',2,8,1);
 
 /*Creando la tabla Ubicacion*/
 CREATE TABLE Ubicacion(
