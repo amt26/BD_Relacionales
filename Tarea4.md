@@ -29,9 +29,9 @@ CREATE TABLE Encuestado(
     Genero INT(2) NOT NULL,
     Edad INT(2) NOT NULL,
     Fecha_Nacimiento DATE NOT NULL,
-    Ocupacion VARCHAR(10) NOT NULL,
-    Grado_Estudio VARCHAR(2) NOT NULL,
-    Numero_Mudanza VARCHAR(2) NOT NULL
+    Ocupacion INT(10) NOT NULL,
+    Grado_Estudio INT(2) NOT NULL,
+    Numero_Mudanza INT(2) NOT NULL
 );
 
 /*Insertar datos: Encuestado*/
@@ -63,7 +63,7 @@ CREATE TABLE Resultado(
     Id_Resultado INT AUTO_INCREMENT PRIMARY KEY,
     Id_Encuesta INT REFERENCES Encuesta (Id_Encuesta),
     Percepcion_Seguridad_Publica INT(2) NOT NULL,
-    Confianza_Administración_Publica VARCHAR(2) NOT NULL,
+    Confianza_Administración_Publica INT(2) NOT NULL,
     Percepcion_Inseguridad_Publica INT(2) NOT NULL,
     Percepcion_Incivilidades_Entorno INT(2) NOT NULL
 );
