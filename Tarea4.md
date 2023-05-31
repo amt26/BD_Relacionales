@@ -15,7 +15,7 @@ CREATE TABLE Encuesta(
 );
 
 /*Insertar datos: Encuesta*/
-INSERT INTO Encuesta (Id_Encuesta,Id_Encuestado,Periodo_Encuesta) values
+INSERT INTO Encuesta (Id_Encuesta,Id_Encuestado,Periodo_Encuesta) VALUES
 (1,1,"01Jan2023"),
 (2,2,"01Jan2023"),
 (3,3,"01Jan2023"),
@@ -35,7 +35,7 @@ CREATE TABLE Encuestado(
 );
 
 /*Insertar datos: Encuestado*/
-INSERT INTO Encuestado (Id_Encuestado,Id_Ubicacion,Genero,Edad,Fecha_Nacimiento,Ocupacion,Grado_Estudio,Numero_Mudanza) values
+INSERT INTO Encuestado (Id_Encuestado,Id_Ubicacion,Genero,Edad,Fecha_Nacimiento,Ocupacion,Grado_Estudio,Numero_Mudanza) VALUES
 (1,1,1,23,'1999-10-26',2,"08",1),
 (2,2,2,25,'1998-04-26',2,"08",1),
 (3,3,2,59,'1964-01-27',2,"02",3),
@@ -51,7 +51,7 @@ CREATE TABLE Ubicacion(
 );
 
 /*Insertar datos: Ubicacion*/
-INSERT INTO Ubicacion (Id_Ubicacion,Localidad,Municipio,Estado) values
+INSERT INTO Ubicacion (Id_Ubicacion,Localidad,Municipio,Estado) VALUES
 (1,"Arboledas","Escobedo","Nuevo Leon"),
 (2,"Azteca","Guadalupe","Nuevo Leon"),
 (3,"Balcones del Norte","Apodaca","Nuevo Leon"),
@@ -69,7 +69,7 @@ CREATE TABLE Resultado(
 );
 
 /*Insertar datos: Resultado*/
-INSERT INTO Resultado (Id_Resultado,Id_Encuesta,Percepcion_Seguridad_Publica,Confianza_Administración_Publica,Percepcion_Inseguridad_Publica,Percepcion_Incivilidades_Entorno) values
+INSERT INTO Resultado (Id_Resultado,Id_Encuesta,Percepcion_Seguridad_Publica,Confianza_Administración_Publica,Percepcion_Inseguridad_Publica,Percepcion_Incivilidades_Entorno) VALUES
 (1,1,2,3,1,2),
 (2,2,2,3,2,2),
 (3,3,3,4,2,1),
