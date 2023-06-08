@@ -92,3 +92,4 @@ LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Resultado.c
     la ubicación obtenida con el siguiente código: "SHOW VARIABLES LIKE 'secure_file_priv';"
 
 ## Autoevaluación
+A pesar de tener dificultades para entender el uso de CMD para lograr hacer sentencias de MySQL logre utilizar otro camino para poder dar una solución al problema planteado. Solo queda seguir practicando el uso del CMD por ello, considero que merezco una calificación 8.5/10.0.
