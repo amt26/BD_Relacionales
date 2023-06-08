@@ -83,9 +83,12 @@ LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Resultado.c
 
 ## Dificultades
 
-    1. Al tratar de conectarme a MySQL desde el Símbolo del Sistema (CMD) para poder realizar la inserción de datos, se me complica el lograr entender como puedo realizar esto desde el CMD, para solucionar esto decidí insertar los datos utilizando la sentencia **LOAD DATA INFILE**.
+    1. Al tratar de conectarme a MySQL desde el Símbolo del Sistema (CMD) para poder realizar la inserción de datos, se me
+    complica el lograr entender como puedo realizar esto desde el CMD, para solucionar esto decidí insertar los datos
+    utilizando la sentencia "LOAD DATA INFILE".
 
-    2. Al intentar importar archivos con la sentencia **LOAD DATA INFILE** me marcaba un error que hace referencia a que MySQL está configurado con la opción **--secure-file-priv** habilitada. Así que para solucionar esto tuve que mover los archivos a la ubicación obtenida con el siguiente código: **SHOW VARIABLES LIKE 'secure_file_priv';**
+    2. Al intentar importar archivos con la sentencia "LOAD DATA INFILE" me marcaba un error que hace referencia a que MySQL
+    está configurado con la opción "--secure-file-priv" habilitada. Así que para solucionar esto tuve que mover los archivos a
+    la ubicación obtenida con el siguiente código: "SHOW VARIABLES LIKE 'secure_file_priv';"
 
 ## Autoevaluación
-
