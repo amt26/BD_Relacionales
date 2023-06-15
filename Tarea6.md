@@ -63,6 +63,7 @@ Dando como resultado el estado que tiene una mayor moda:
 
 -----
 **Dificultades**
+
 Las dificultades para la tarea 6 fueron:
 
     1. Al intentar calcular la moda de los estados de la ubicación de los encuestados, tuve dificultad al momento de pensar y
