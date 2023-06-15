@@ -1,5 +1,6 @@
 ## Uso de funciones
 
+-----
 **Frecuencia**
 
 Para saber como se encuentra distribuida la variable **Genero** se utilizo la funcion **count()** para obtener la frecuencia de cuantos clientes son hombre y cuantos son mujeres.
@@ -35,6 +36,7 @@ Resultado de la consulta:
 |---	|---	|---	|
 | 18 	| 85 	| 67    |
 
+----
 **Cuantiles**
 
 ----
