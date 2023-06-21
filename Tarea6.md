@@ -41,7 +41,7 @@ Resultado de la consulta:
 
 ```sql
 /*Creamos una tabla para agregar la variable Edad y el Número de Renglones*/
-DROP TABLE	IF EXISTS Cuartiles;
+DROP TABLE IF EXISTS Cuartiles;
 CREATE TABLE Cuartiles(
     NumRenglon INT AUTO_INCREMENT PRIMARY KEY,
     Edad INT(2)
