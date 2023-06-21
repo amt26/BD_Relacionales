@@ -37,7 +37,36 @@ Resultado de la consulta:
 | 18 	| 85 	| 67    |
 
 ----
-**Cuantiles**
+**Cuartiles**
+
+```sql
+/*Creamos una tabla para agregar la variable Edad y el Número de Renglones*/
+DROP TABLE	IF EXISTS Cuartiles;
+CREATE TABLE Cuartiles(
+    NumRenglon INT AUTO_INCREMENT PRIMARY KEY,
+    Edad INT(2)
+);
+
+/*Agregar la edad de la tabla Encuestado*/
+INSERT INTO Cuartiles (Edad)
+SELECT Edad
+FROM encuestado  
+ORDER BY Edad ASC;
+
+/*Cuartil a elegir*/
+SET @Cuartil = 0.75;
+
+/* Calculo del Cuartil 3 */
+SELECT Edad
+FROM cuartiles c 
+WHERE NumRenglon = (ROUND((@Cuartil) * ((SELECT count(*) FROM Encuestado e) - 1)));
+```
+
+Dando como resultado para el cuartil 3:
+
+| Edad | 
+|---	|
+| 68 	|
 
 ----
 **Moda**
