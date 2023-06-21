@@ -96,4 +96,9 @@ Dando como resultado el estado que tiene una mayor moda:
 Las dificultades para la tarea 6 fueron:
 
     1. Al intentar calcular la moda de los estados de la ubicación de los encuestados, tuve dificultad al momento de pensar y
-    plasmar en codigo una solución para este problema.
+    plasmar en codito una solución para este problema.
+
+    2. Al realizar la tarea, dejé como ejercicio final el cálculo de los cuartiles ya que, igual que con la moda, tuve
+    problemas el intentar plasmar lo que pensaba en código. Para resolver este ejercicio me vi con la necesidad de investigar
+    en varios foros de internet para poder encontrar una forma óptima de realizar el ejercicio.
+
