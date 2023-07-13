@@ -15,3 +15,5 @@ Indice de tareas:
 * [Tarea 6](/Tarea6.md)
 * [Tarea 7](/Tarea7.md)
 * [Tarea 8](/Tarea8.md)
+* [Tarea 9](/Tarea9.md)
+* [Tarea 10](/Tarea10.md)
